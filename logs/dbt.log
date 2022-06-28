@@ -1,0 +1,34 @@
+
+
+============================== 2022-06-28 20:36:21.796844 | b5a47e85-abd8-4560-9460-894a2c5f6c60 ==============================
+20:36:21.796857 [info ] [MainThread]: Running with dbt=1.1.0
+20:36:21.797289 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/steven.williamson.passportinc/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+20:36:21.797454 [debug] [MainThread]: Tracking: tracking
+20:36:21.823023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057c4190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105661e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057d3f40>]}
+20:36:27.262750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057d3d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057af610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057bff70>]}
+
+
+============================== 2022-06-28 20:37:07.111291 | 0e99fa73-40ba-4529-b576-eb5bb485ccdc ==============================
+20:37:07.111299 [info ] [MainThread]: Running with dbt=1.1.0
+20:37:07.111668 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/steven.williamson.passportinc/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+20:37:07.111844 [debug] [MainThread]: Tracking: tracking
+20:37:07.130509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11290b280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1127a8ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11291bee0>]}
+20:37:10.909779 [debug] [MainThread]: Starter project path: /Users/steven.williamson.passportinc/.pyenv/versions/3.8.6/lib/python3.8/site-packages/dbt/include/starter_project
+20:38:24.642560 [info ] [MainThread]: Profile dbt_tutorial written to /Users/steven.williamson.passportinc/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+20:38:24.643389 [info ] [MainThread]: 
+Your new dbt project "dbt_tutorial" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+20:38:24.643816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11291bee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1129061f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112906940>]}
