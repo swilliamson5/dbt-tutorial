@@ -11,9 +11,8 @@
 
 with source_data as (
 
-    select 1 as id
-    union all
-    select null as id
+    select _row, _123
+    from {{ source("google_sheets", "steven_test_data") }}
 
 )
 
